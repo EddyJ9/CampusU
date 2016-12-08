@@ -27,10 +27,10 @@ public class User {
     @JsonIgnore
     private String phone;
 
-    @Column
+    @Column (nullable = false, unique = true)
     private String username;
 
-    @Column
+    @Column (nullable = false)
     @JsonIgnore
     private String password;
 
