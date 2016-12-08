@@ -1,4 +1,4 @@
-package com.campus.uber;
+package com.campus.u;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
